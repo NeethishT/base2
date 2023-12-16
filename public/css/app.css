@@ -1,0 +1,24 @@
+#revampFDTabs .nav-link.active {
+  background-color: #f5bc15;
+  color: #1e293cb3;
+}
+#revampFDTabs .nav-link {
+  border-color: #f5bc15;
+}
+.badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #64748b;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  min-width: 1.3571428571em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+

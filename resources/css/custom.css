@@ -1,0 +1,156 @@
+.bg-website {
+  background-color: #F5BC15;
+}
+.page-center {
+  justify-content: center;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+.ti {
+  font-family: "tabler-icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#626976;
+}
+
+.nav-item.active, .navbar-vertical .nav-item:hover {
+  background-color: #e7e7e7;
+}
+
+
+@media (min-width: 992px) {
+  .navbar-vertical.navbar-expand-lg{
+    overflow-y: auto;
+  }
+}
+
+.markdown>table, .table {
+  --tblr-table-striped-bg : #f2f3f4;
+}
+
+.bg-teal {
+  background-color: #0ca678 !important;
+  color:white;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 85.71428571%;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+}
+.badge-secondary {
+  background: #64748b;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: inherit;
+  text-decoration: none;
+  background-color: rgba(98, 105, 118, 0.06);
+}
+.col-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 3px;
+  column-gap: 3px;
+}
+
+
+/* modal start */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #f8fafc;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1.5rem;
+  word-wrap: break-word;overflow: hidden;
+} 
+/* Modal End */
+
+
+.v-scroll {
+  height: 300px;
+  overflow-y: scroll;
+  max-height: p;
+}
+
+.expand-row {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.i-flex {
+  display: inline-flex;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+/* Pagination Start */
+#pagination .pagination{
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#pagination .pagination{
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#pagination .pagination .previous, #pagination .pagination .next {
+  margin: 0 5px;
+}
+
+#pagination .pagination li a{
+  cursor: pointer;
+}
+ /* Pagination End */
